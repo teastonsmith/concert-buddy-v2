@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import Calendar from './Calendar';
 
 export default class CalendarWrapper extends Component {
 	constructor(props) {
@@ -65,7 +66,9 @@ export default class CalendarWrapper extends Component {
 	render() {
 		return (
 			<div>
-				<p>Calendar</p>
+				<Calendar 
+                    
+                />
 			</div>
 		);
 	}

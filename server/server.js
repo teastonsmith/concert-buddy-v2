@@ -1,5 +1,10 @@
 const express = require('express');
 const controller = require('./controllers/controller');
+
+const isToday = require('date-fns/is_today')
+isToday(new Date())
+//=> true
+
 const app = express();
 
 app.use(express.json());
