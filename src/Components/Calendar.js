@@ -1,3 +1,5 @@
+// credit for 'react-calendar' goes to Matej Kovac (https://blog.flowandform.agency/create-a-custom-calendar-in-react-3df1bfd0b728)
+
 import React, { Component } from 'react';
 import dateFns from 'date-fns';
 
@@ -78,6 +80,7 @@ export default class Calendar extends Component {
 						onClick={() => this.onDateClick(dateFns.parse(cloneDay))}>
 						<span className='number'>{formattedDate}</span>
 						<span className='bg'>{formattedDate}</span>
+                        {/* insert logic here  */}
 					</div>,
 				);
 				day = dateFns.addDays(day, 1);

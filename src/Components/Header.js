@@ -3,7 +3,8 @@ import React from 'react'
 export default function Header() {
     return (
         <div>
-            <p>Header</p>
+            <h1>Concert Buddy</h1>
+            
         </div>
     )
 }
